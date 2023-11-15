@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #00408e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .account-info {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-info h2 {
+    text-align: center;
+    color: #00408e;
+  }
+  
+  .account-details {
+    margin-bottom: 20px;
+  }
+  
+  .account-details p {
+    margin-bottom: 10px;
+  }
+  
+  .transaction-history {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  .transaction-history h3 {
+    color: #00408e;
+  }
+  
+  .transaction-history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-history li {
+    margin-bottom: 8px;
+  }
+  
+  footer {
+    background-color: #00408e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
